@@ -1,11 +1,9 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import NavBar from "./components/NavBar";
+import NavBar from "../../AI-SIte/src/components/NavBar";
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
+import Footer from "../../AI-SIte/src/components/Footer";
+import Home from "../../AI-SIte/src/pages/Home";
 function App() {
   return (
     <>

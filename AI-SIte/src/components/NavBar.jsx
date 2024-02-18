@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <nav className="bg-gradient-to-r from-slate-500 to-yellow-100 px-20 py-7">
+      <nav className="bg-[#020024] px-20 py-7">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white font-bold text-lg">BARD</div>
+          <div className="text-white font-bold text-2xl">Galaxy✨</div>
 
-          <ul className="flex space-x-8">
+          <ul className="flex space-x-10 text-sm">
             <li>
               <Link to="/" className="text-white hover:text-gray-500">
                 Home
