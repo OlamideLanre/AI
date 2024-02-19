@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <nav className="bg-[#020024] px-20 py-7">
+      <nav className="bg-[#020024] px-20 py-7 stroke">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-bold text-2xl">Galaxy✨</div>
 
